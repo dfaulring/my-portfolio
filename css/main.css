@@ -28,3 +28,21 @@ body {
     font-size: 40px;
     margin-top: 16px;
 }
+
+.hero ul {
+    list-style: none;
+    margin-top: 32px;
+}
+
+.hero ul li {
+    display: inline-block;
+}
+
+.hero ul li:not(:first-child) {
+    margin-left: 16px;
+}
+
+.hero ul li a {
+    color: #fff;
+    text-underline-offset: 2px;
+}
