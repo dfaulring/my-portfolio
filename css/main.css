@@ -9,6 +9,7 @@ body {
     color: #fff;
 }
 
+/* Hero */
 .hero {
     display: flex;
     flex-direction: column;
@@ -46,3 +47,24 @@ body {
     color: #fff;
     text-underline-offset: 2px;
 }
+/* End Hero */
+
+/* Projects */
+.projects {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.projects .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.projects .grid-item {
+    border: 1px solid #262626;
+    border-radius: 12px;
+    padding: 32px;
+}
+/* End Projects */
