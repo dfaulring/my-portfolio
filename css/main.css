@@ -30,6 +30,11 @@ body {
     margin-top: 16px;
 }
 
+.hero h1 a {
+    color: #002fff;
+    text-decoration: none;
+}
+
 .hero ul {
     list-style: none;
     margin-top: 32px;
